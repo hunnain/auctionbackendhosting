@@ -1,0 +1,32 @@
+{
+  "name": "watchtrade-backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon --trace-deprecation app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "joi": "^17.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.0.1",
+    "mongoose": "^5.12.13",
+    "morgan": "~1.9.1",
+    "node-cron": "^3.0.0",
+    "nodemailer": "^6.6.2",
+    "stripe": "^7.63.1",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5"
+  }
+}
