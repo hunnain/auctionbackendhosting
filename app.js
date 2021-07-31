@@ -71,7 +71,7 @@ app.use(express.static(path.join(__dirname, 'public')))
 app.use('/api', 	indexRouter)
 app.use('/web', websiteRouter)
 app.use('/users', 		 usersRouter)
-app.use('/products', 	authenticationMiddleware, productsRouter)
+app.use('/products', 	 productsRouter)
 app.use('/orders', 		authenticationMiddleware, ordersRouter)
 app.use('/leads', 		authenticationMiddleware, leadsRouter)
 
